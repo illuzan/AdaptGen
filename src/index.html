@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>AdaptGen</title>
+    <link rel="stylesheet" href="index.css" />
+    <script defer src="render.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Upload Section -->
+      <div class="upload_container">
+        <input
+          id="input_box"
+          class="font_regular input_box"
+          type="text"
+          value="Location"
+          readonly
+        />
+        <button id="upload_button" type="button">Upload</button>
+      </div>
+
+      <!-- Suffix -->
+      <div class="input_container">
+        <label class="font_bold">Background Suffix</label>
+        <input
+          id="bgText"
+          class="font_regular input_box"
+          type="text"
+          value="bg"
+        />
+      </div>
+      <div class="input_container">
+        <label class="font_bold">Foreground Suffix</label>
+        <input
+          id="fgText"
+          class="font_regular input_box"
+          type="text"
+          value="fg"
+        />
+      </div>
+
+      <!-- Button -->
+      <div class="generate_container">
+        <button
+          id="button_xml"
+          class="font_bold button_secondary"
+          type="button"
+        >
+          Generate XML
+        </button>
+        <button
+          id="button_drawable"
+          class="font_bold button_secondary"
+          type="button"
+        >
+          Generate Drawable
+        </button>
+      </div>
+    </div>
+    <div class="social">
+      <i onclick="openTwitter()" class="fa fa-twitter fa-2x"></i>
+      <i onclick="openGithub()" class="fa fa-github fa-2x"></i>
+    </div>
+  </body>
+</html>

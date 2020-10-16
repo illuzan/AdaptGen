@@ -1,0 +1,100 @@
+/* Container */
+
+.container {
+  margin: auto;
+  margin-top: 12%;
+  width: 384px;
+  padding: 10px;
+}
+
+.input_container {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  margin-top: 35px;
+}
+
+.generate_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  position: absolute;
+  width: 116px;
+  height: 52px;
+  right: 20px;
+  bottom: 15px;
+}
+
+/* Input Style */
+
+.input_box {
+  padding: 6px 8px;
+  height: 37px;
+  width: 295px;
+  background: #ffffff;
+  border: 1px solid #8a8886;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+/* Button Style */
+
+#upload_button {
+  padding: 6px 20px;
+  height: 37px;
+  background: #0078d4;
+  border-radius: 2px;
+  color: #ffffff;
+  border: none;
+}
+
+#upload_button:hover {
+  background: #106ebe;
+  cursor: pointer;
+}
+
+.button_secondary {
+  padding: 6px 20px;
+  height: 37px;
+  background: #ffffff;
+  border: 1px solid #8a8886;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+.button_secondary:hover {
+  background: #f3f2f1;
+  cursor: pointer;
+}
+
+.fa {
+  padding: 10px;
+}
+
+.fa:hover {
+  cursor: pointer;
+}
+
+/* Font Style */
+
+.font_bold {
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}
+.font_regular {
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
