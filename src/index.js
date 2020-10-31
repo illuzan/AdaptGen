@@ -8,7 +8,7 @@ if (require("electron-squirrel-startup")) {
 }
 
 // const iconPath = path.join(__dirname, "icon.ico");
-const iconPath = path.join(__dirname, "icons", "icon");
+const iconPath = path.join(__dirname, "icons", "icon.ico");
 
 const createWindow = () => {
   // Create the browser window.
